@@ -21,6 +21,15 @@ body{
     cursor: pointer;
     border-radius: 4px;
 }
+.buttons button:nth-child(1):hover {
+    background: green;
+}
+.buttons button:nth-child(2):hover {
+    background: rgb(193, 5, 5);
+}
+.buttons button:nth-child(3):hover {
+    background: rgb(146, 149, 7);
+}
 #toastBox {
     position: absolute;
     bottom:30px;
@@ -98,7 +107,4 @@ color: orange;
 .toast.invalid::after{
     background: rgb(250, 229, 5);
 
-}
-.greenBody{
- background: rgba(0, 128, 0, 0.511);   
 }
